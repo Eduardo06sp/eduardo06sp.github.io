@@ -1,1 +1,312 @@
+html {
+  font-size: 1.125em;}
+body {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Garamond;}
+h2 {
+  font-size: 2.827em;
+  word-wrap: break-word;}
+#content {
+  overflow: auto;}
+#nav, .slide-viewer, #footer {
+  margin: 1%;}
+#col1, #col2 {
+  float: left;
+  margin: 1%;}
+#col1 {
+  width: 62.6%;}
+#col2 {
+  width: 31.3%;
+  margin-right: 0;}
+#nav, #footer {
+  padding: 0.5em 0;}
+.sec {
+  overflow: auto;
+  margin-bottom: 1em;
+  background-color: #EFEFEF;} /* remove background color when completed */
+.sec p {
+  word-wrap: break-word;}
+  
+/* end general styling */
 
+#logo {
+  height: auto;
+  width: 71%;}
+a:link {
+  color: black;
+  text-decoration: none;}
+a:visited {
+  color: #888888;}
+a:hover {
+  color: black;
+  text-decoration: underline;}
+#current {
+  background-color: #EFEFEF;}
+#nav {
+  margin-top: 0;}
+#nav-ul {
+  padding: 0;}
+#nav-ul li:active {
+  border-style: inset;}
+#nav-ul li {
+  display: inline;
+  padding: 0.5em;
+  font-size: 1em;
+  border: 2px solid #D8D8D8;
+  border-top: none;
+  border-left: none;
+  line-height: 2.7em;
+  margin-left: 0.25em;}
+
+
+/* end header styling */
+
+#share {
+  float: left;}
+.slide img, #anniversary-img, .sec, .sidebar-img {
+  border: 1px solid #D8D8D8;}
+#col1-sec1 {
+  height: 100%;
+  overflow: auto;}
+#anniversary-container {
+  overflow: auto;
+  width: 100%;}
+#anniversary-img-container {
+  overflow: hidden;
+  max-height: 15em;
+  max-width: 15em;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  float: left;} /* make container proportionate to img */
+#anniversary-img, .sidebar-img, #financial-report-img {
+  max-width: 100%;
+  max-height: 100%;}
+#contact-container {
+  width: 40%;
+  float: right;
+  margin-right: 5em;
+  margin-top: 2em;
+  text-align: left;}
+.contact-text {
+  font-weight: bold;}
+
+/* end #col-sec1 styling */
+
+#clergy-container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 15em;}
+.clergy-header {
+  border-bottom: 1px dotted black;
+  font-weight: bold;}
+#clergy-container ul {
+  list-style-type: none;}
+  
+/* end #col1-sec2 styling */
+
+.hours-text {
+  font-weight: bold;}
+  
+/* end #col1-sec3 styling */
+/* end #col1 styling */
+
+.mass-header {
+  border-bottom: 1px dotted black;
+  font-weight: bold;}
+  
+/* end #col2-sec1 styling */
+
+.confessions-header {
+  border-bottom: 1px dotted black;
+  font-weight: bold;}
+  
+/* end #col2-sec2 styling */
+
+.contest-title {
+  border-bottom: 1px dotted black;
+  font-weight: bold;}
+.img-container {
+  max-height: 12em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 9em;
+  overflow: hidden;}
+.sidebar-img, #financial-report-img {
+  max-height: 100%;
+  max-width: 100%;}
+#karaoke-contest-container {
+  margin-bottom: 1em;}
+  
+/* end #col2-sec3 styling */
+
+#links-container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 46%;}
+#links-container ul {
+  list-style-type: circle;}
+  
+/* end #col2-sec4 styling */
+/* end #col2 styling */
+
+
+
+/* --------------------------- */
+/* BEGIN CONTENT PANELS STYLES */
+/* --------------------------- */
+
+
+
+#footer {
+  font-size: 0.707em;}
+#map {
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 2em;
+  margin-left: 2em;}
+  
+/* end Google Map styling */
+
+.accordion {
+  list-style-type: none;}
+.accordion-control {
+  background: none;
+  border: none;
+  font: inherit;
+  line-height: 2em;}
+.accordion-panel {
+  display: none;}
+  
+/* end accordion styling */
+
+.tab-list {
+  list-style-type: none;}
+.tab-list li {
+  display: inline;}
+.tab-control {
+  background-color: #C1C1C1;
+  padding: 0.5em;}
+.tab-control:link {
+  text-decoration: none;}
+.tab-control:visited {
+  color: black;}
+.tab-panel {
+  background-color: #C1C1C1;
+  display: none;
+  float: right;
+  margin-right: 15%;
+  width: 10em;}
+.active-tab, .active-tab a, .tab-control:hover {
+  background-color: #EFEFEF;
+  border-bottom: 3px solid #EFEFEF;}
+.active-tab {
+  display: block;}
+
+/* end tab-panel styling */
+
+#about {
+  float: left;}
+.modal {
+  background-color: white;
+  border: 3px solid black;
+  padding: 50px;
+  position: absolute;
+  z-index: 1000;}
+.modal-close {
+  cursor: pointer;}
+button.modal-close {
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  float: right;
+  margin-top: 10px;
+  padding: 0.5em;
+  text-transform: uppercase;}
+#archangel {
+  width: 25em;
+  height: auto;}
+#catholic-answers {
+  width: auto;
+  height: 5em;}
+#catholic-online {
+  width: auto;
+  height: 5em;}
+#about-logo {
+  width: auto;
+  height: 5em;}
+#about-links a {
+  margin: 0.25em;}
+
+/* end modal window styling */
+
+#photo-viewer {
+  height: 300px;
+  overflow: hidden;
+  position: relative;}
+#photo-viewer.is-loading:after {
+  content: url(../images/load.gif);
+  position: absolute;
+  right: 0;
+  top: 0;}
+#photo-viewer img {
+  border: 1px solid #D8D8D8;
+  left: 50%;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 50%;}
+.thumb img {
+  border: 1px solid #D8D8D8;}
+.thumb:hover {
+  text-decoration: none;
+}
+.active {
+  opacity: 0.3;}
+#gallery {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  width: 40%;}
+#thumbnails {
+  margin-top: 1em;}
+  
+/* end photo viewer styling */
+
+.slide-viewer {
+  height: 350px;
+  overflow: hidden;
+  position: relative;}
+.slide-group {
+  width: 100%;
+  height: 100%;
+  position: relative;}
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;}
+.slide:first-child {
+  display: block;}
+.slide-buttons {
+  text-align: center;}
+.slide-button {
+  background: none;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  font-size: 200%;
+  line-height: 0.5em;
+  padding: 0 0.5em 0 0.5em;
+  text-align: left;
+  text-transform: uppercase;}
+.active, .slide-button:hover {
+  color: #808080;
+  text-decoration: none;}
+/* END SLIDER STYLING */
