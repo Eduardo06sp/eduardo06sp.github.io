@@ -1,31 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 	<head>
+
 		<meta name="description" content="A Github page showcasing some projects I have worked on">
 		<meta name="keywords" content="Github, page, resume, portfolio, html, css, javascript, jquery">
-		<meta http-equiv="author" content="Eduardo Pelaez Alvarado">
-		<title>Eduardo Pelaez-Student</title>
-		<link href="css/styles.css" type="text/css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Eduardo Pelaez</title>
+		<link href="css/styles.css" rel="stylesheet">
+
 	</head>
+
 	<body>
-		<div id="page">
-			<div id="header">
-				<h1>Eduardo Pelaez</h1>
-				<div id="nav">
-					<ul id="navUl">
-						<a href="index.html"><li id="current">Home</li></a>
-						<a href="St Anthony Claret/index.html"><li>Saint Anthony</li></a>
-						<a href="Javascript Programming I/a1.html"><li>Javascript Programming I</li></a>
-						<a href="Udacity/home-town-app/index.html"><li>Home Town App</li></a>
-					</ul>
+
+		<header>
+
+			<div class="header-top">
+				<img src="img/logo.svg" alt="My initials E and P">
+				<div class="name-header">
+					<h1>Eduardo Pelaez</h1>
+					<p>Front-End Web Developer</p>
 				</div>
-			</div><!-- END #HEADER -->
-			<div id="content">
-				<p>Hello, my name is Eduardo Pelaez. I am working part-time and studying computer science in college. I like to work on web development on my free time.</p>
-			</div><!-- END #CONTENT -->
-		</div><!-- END #PAGE -->
-		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+			</div>
+
+			<nav>
+				<ul>
+					<li id="current"><a href="index.html">Home</a></li>
+					<li><a href="st-anthony/project/index.html">Saint Anthony</a></li>
+					<li><a href="javascript-programming/a1.html">JS Programming I</a></li>
+					<li><a href="udacity/home-town-app/index.html">Home Town App</a></li>
+				</ul>
+			</nav>
+
+		</header>
+
+		<main>
+
+		<section class="featured">
+			<h2>Featured Work</h2>
+			<div class="featured-el">
+				<a href="st-anthony/index.html">
+					<img src="img/st-anthony-1920.png" alt="Screenshot of Saint Anthony Catholic Church website I made"
+						sizes="100vw"
+						srcset="img/st-anthony-500.png 500w,
+						img/st-anthony-640.png 640w,
+						img/st-anthony-800.png 800w,
+						img/st-anthony-1000.png 1000w,
+						img/st-anthony-1920.png 1920w">
+					<p>Saint Anthony</p>
+				</a>
+			</div>
+
+			<div class="featured-el">
+				<a href="js-programming/a1.html">
+					<img src="img/js-1920.png" alt="Screenshot of website I made for a class I took named Javascript Programming One"
+						sizes="100vw"
+						srcset="img/js-500.png 500w,
+						img/js-640.png 640w,
+						img/js-800.png 800w,
+						img/js-1000.png 1000w,
+						img/js-1920.png 1920w">
+					<p>Javascript Programming I</p>
+				</a>
+			</div>
+
+			<div class="featured-el">
+				<a href="udacity/home-town-app/index.html">
+					<img src="img/hometown-1920.png" alt="Screenshot of website I optimized for mobile as part of an assignement in Udacity"
+						sizes="100vw"
+						srcset="img/hometown-500.png 500w,
+						img/hometown-640.png 640w,
+						img/hometown-800.png 800w,
+						img/hometown-1000.png 1000w,
+						img/hometown-1920.png 1920w">
+					<p>Home Town App</p>
+				</a>
+			</div>
+
+		</section>
+		</main>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous">
+		</script>
 	</body>
 </html>
-	
-	
+
+
