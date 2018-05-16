@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="description" content="A Github page showcasing some projects I have worked on">
+		<meta name="keywords" content="Github, page, resume, portfolio, html, css, javascript, jquery">
+		<meta http-equiv="author" content="Eduardo Pelaez Alvarado">
+		<title>Eduardo Pelaez-Student</title>
+		<link href="css/styles.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="page">
+			<div id="header">
+				<h1>Eduardo Pelaez</h1>
+				<div id="nav">
+					<ul id="navUl">
+						<a href="index.html"><li id="current">Home</li></a>
+						<a href="St Anthony Claret/index.html"><li>Saint Anthony</li></a>
+						<a href="Javascript Programming I/a1.html"><li>Javascript Programming I</li></a>
+						<a href="Udacity/home-town-app/index.html"><li>Home Town App</li></a>
+					</ul>
+				</div>
+			</div><!-- END #HEADER -->
+			<div id="content">
+				<p>Hello, my name is Eduardo Pelaez. I am working part-time and studying computer science in college. I like to work on web development on my free time.</p>
+			</div><!-- END #CONTENT -->
+		</div><!-- END #PAGE -->
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	</body>
+</html>
+	
+	

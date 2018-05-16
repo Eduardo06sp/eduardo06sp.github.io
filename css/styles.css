@@ -1,0 +1,179 @@
+body {
+	color: #2d3c49;
+	font: 1.1em Roboto;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* HEADER */
+header {
+	width: 100%;
+}
+
+.header-top {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 1em;
+	justify-content: center;
+	padding-top: 1em;
+	width: 100%;
+}
+
+.header-top img {
+	width: 30%;
+}
+
+.name-header {
+	text-align: center;
+	width: 100%;
+}
+
+.header-top h1 {
+	color: #7d97ad;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+.header-top p {
+	border-bottom: #7d97ad solid;
+	margin: 0 auto;
+	padding-bottom: 1em;
+	width: 80%;
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+	align-items: center;
+	display: flex;
+	height: 64px;
+	width: 100%;
+}
+
+nav ul li a {
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+/* MAIN */
+main {
+	margin: 0 auto;
+}
+
+.featured h2:first-child {
+	color: #7d97ad;
+	text-align: center;
+}
+
+.featured-el {
+	width: 100%;
+}
+
+.featured-el img {
+	width: 100%;
+}
+
+.featured p {
+	text-align: center;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 500px) {
+
+	body {
+		font-size: 1.2em;
+	}
+
+	.header-top {
+		border-bottom: #7d97ad solid;
+		margin: 0 auto;
+		padding-bottom: 1em;
+		width: 85%;
+	}
+
+	.header-top img {
+		width: 15%;
+	}
+
+	.header-top h1 {
+		text-align: right;
+	}
+
+	.header-top p {
+		border: none;
+		margin-right: 0;
+		padding: 0;
+		text-align: right;
+	}
+
+	.name-header {
+		width: 80%;
+	}
+
+}
+
+@media screen and (min-width: 850px) {
+
+
+	main {
+		width: 700px;
+	}
+
+	.header-top {
+		justify-content: space-between;
+		width: 90%;
+	}
+
+	.header-top img {
+		width: 80px;
+	}
+
+	.name-header {
+		align-self: flex-end;
+		width: 70%;
+	}
+
+	nav ul {
+		flex-wrap: nowrap;
+		margin: 1em auto;
+		width: 80%;
+	}
+
+	nav ul li {
+		border-left: 0.1em grey solid;
+		margin: 0;
+	}
+
+	nav ul li:first-child {
+		border-left: none;
+	}
+
+	nav ul li a {
+		text-align: center;
+		padding: 1em;
+	}
+
+	.featured h2:first-child {
+		text-align: left;
+		margin: 2em 0;
+		margin-bottom: 0;
+	}
+
+	.featured-el img {
+		border: 0.1em lightgrey solid;
+	}
+
+	.featured-el a {
+		text-transform: uppercase;
+	}
+
+}
